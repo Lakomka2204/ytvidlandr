@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Youtube Video Downloader</string>
+    <string name="action_settings">Settings</string>
+	<string name="inputurl">Enter YouTube URL</string>
+	<string name="getvideobtn">Get video</string>
+	<string name="downloadvideobtn">Download videos</string>
+	<string name="setloc">Set save location</string>
+	<string name="info">Info</string>
+	<string name="thumbdesc">Thumbnail</string>
+</resources>

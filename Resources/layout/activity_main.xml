@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		android:layout_width="match_parent"
+		android:text="@string/app_name"
+		android:textSize="28dp"
+		android:layout_marginTop="15dp"
+		android:gravity="center"
+		android:textColor="@android:color/darker_gray"
+		android:layout_height="wrap_content"/>
+	<EditText
+		android:id="@+id/urltext"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="65dp"
+		android:gravity="center"
+		android:hint="@string/inputurl"
+		android:inputType="textUri"
+		android:layout_marginLeft="0.0dp" />
+	<Button
+		android:id="@+id/buttongetvideo"
+		android:layout_width="@dimen/abc_action_bar_stacked_tab_max_width"
+		android:layout_marginTop="115dp"
+		android:gravity="center"
+		android:layout_marginLeft="10dp"
+		android:enabled="true"
+		android:text="@string/getvideobtn"
+		android:layout_height="wrap_content"/>
+	<androidx.recyclerview.widget.RecyclerView
+		android:scrollbars="vertical"
+		android:layout_marginTop="170dp"
+		android:layout_width="match_parent"
+		android:id="@+id/lv"
+		android:layout_height="wrap_content"/>
+	<TextView
+		android:id="@+id/infotxt"
+		android:visibility="gone"
+		android:layout_width="match_parent"
+		android:text="@string/info"
+		android:textSize="28dp"
+		android:layout_marginTop="170dp"
+		android:gravity="center"
+		android:textColor="@android:color/darker_gray"
+		android:layout_height="wrap_content"/>
+	<Button
+		android:id="@+id/buttondlvideo"
+		android:layout_width="@dimen/abc_action_bar_stacked_tab_max_width"
+		android:gravity="center"
+		android:enabled="false"
+		android:text="@string/downloadvideobtn"
+		android:layout_height="wrap_content"
+		app:layout_anchorGravity="right"
+		app:layout_dodgeInsetEdges="none"
+		android:layout_marginTop="115dp"
+		android:layout_marginRight="0.0dp"
+		android:layout_marginLeft="200dp" />
+	<com.google.android.material.appbar.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+	</com.google.android.material.appbar.AppBarLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
